@@ -2,5 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/simonvoe/public_html/
-    - /bin/cp * $DEPLOYPATH
+    - /bin/cp -R /home/simonvoe/repositories/simonkatende $DEPLOYPATH
    
